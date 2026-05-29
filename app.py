@@ -9,7 +9,16 @@ from agents.question_generator import (
 from agents.study_planner import create_study_plan
 from agents.skill_gap import skill_gap_analysis
 
-st.title("AI Interview Preparation Agent")
+st.set_page_config(
+    page_title="AI Interview Preparation Agent",
+    page_icon="🎯",
+    layout="wide"
+)
+
+st.title("🎯 AI Interview Preparation Agent")
+st.markdown(
+    "Analyze resumes, identify skill gaps, generate interview questions, and create study plans."
+)
 
 resume_file = st.file_uploader(
     "Upload Resume",
