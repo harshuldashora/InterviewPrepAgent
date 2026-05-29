@@ -240,7 +240,7 @@ The agent helps candidates:
 ![Skill Gap Analysis](screenshots/skill_gap.png)
 
 ### Results
-![Results](screenshots/results.png)
+![Results](screenshots/result.png)
 
 ## Demo
 
